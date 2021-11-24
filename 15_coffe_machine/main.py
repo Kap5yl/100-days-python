@@ -65,7 +65,7 @@ while on:
                 print("no money")
             else:
                 income = drink["cost"]
-                print(f"Here is change: {round(pay - drink['cost'], 2)}")
+                print(f"Here is change: {round(pay - drink['cost'], 2)} and you {choice}")
                 for n in drink["ingredients"]:
                     resources[n] -= drink["ingredients"][n]
  
